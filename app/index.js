@@ -20,6 +20,7 @@ const startServer = () => {
       origin: [
         'https://college-management-rho.vercel.app',
         'http://localhost:3000',
+        'https://ims-cyan.vercel.app'
       ],
       methods: ['GET', 'POST', 'PUT', 'DELETE'],
       credentials: true,
